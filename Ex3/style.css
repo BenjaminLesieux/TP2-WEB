@@ -1,0 +1,22 @@
+#poti {
+    position: relative;
+    display: block;
+    /*margin: 20px 10px 0px;*/
+    margin-top: 50px;
+    margin-left: 45%;
+    width: 100px;
+    height: 100px;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px darkgrey;
+}
+
+form{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    box-sizing: ;
+}
+
+body {
+    background-color: lightgrey;
+}
