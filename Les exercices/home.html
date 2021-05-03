@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Form-potiblagueur</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img id = "poti" src = "potiblagueur.jpeg" alt = "poti blagueur">
+
+            <form id = "f" name = "user">
+                <div class = "form-content">
+                    <input type = "text" id = "firstname" name = "user_firstname" placeholder = "Prénom" required>
+
+                    <input type = "text" id = "name" name = "user_name" placeholder = "Nom" required>
+
+                    <input type = "email" id = "email" name = "user_email" placeholder = "Courriel" required>
+
+                    <select id = "status-select" name = "statut" required>
+                        <option value = "" disabled selected>-- Statut --</option>
+                        <option value = "enseignant">Enseignant</option>
+                        <option value = "Etudiant">Etudiant</option>
+                    </select>
+                    <br>
+                </div>
+
+                <div class = "buttons">
+                    <input type = "submit" id = "add" value = "Ajouter">
+                    <input type = "button" id = "del" value = "Tout Supprimer">
+                </div>
+            </form>
+        </header>
+
+        <main>
+<!--            <div id = "container">-->
+                <table>
+                    <tr>
+                        <th>Prénom</th>
+                        <th>Nom</th>
+                        <th>Email</th>
+                        <th>Rôle</th>
+                    </tr>
+                </table>
+<!--            </div>-->
+        </main>
+
+        <script src = "script.js"></script>
+    </body>
+</html>
